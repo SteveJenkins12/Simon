@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?&family=Source+Sans+Pro&display=swap');
+
+.main {
+    display: flex;
+    /* border: solid 2px rgb(151, 129, 57); */
+    background-color: black;
+    height: auto; 
+    width: auto;
+    margin: 15px;    
+}
+
+.container {
+    display: flex;
+    /* border: solid 2px blue; */
+    background-color: black;
+    flex-flow: column wrap;
+    /* align in column */
+    align-items: flex-start;
+    /* align content in each item */
+    align-content: center;
+    height: 1100px; 
+    width: 1100px;
+    margin: 15px;
+}
+
+.heading {
+    /* border: solid 2px red; */
+    background-color: black;
+    padding: 15px;
+    width: 900px;
+}
+
+.subHeading {
+    /* border: solid 2px yellow; */
+    font-family: 'Source Sans Pro' sans-serif;
+    font-size: 20px;
+    color: rgba(226, 212, 212, 0.863);
+    background-color: black;
+    padding: 15px;
+    width: 900px;
+}
+
+.textBody {
+    /* border: solid 2px aqua; */
+    font-family: 'Source Sans Pro' sans-serif;
+    font-size: 18px;
+    color: rgba(226, 212, 212, 0.747);
+    background-color: black;
+    padding: 15px;
+    width:900px;
+}
+
+.gameImage{
+    /* border: solid 2px rgb(119, 0, 255); */
+    background-color: black;
+    /* align-items: center; */
+    /* align in row */
+    align-self: flex-end;
+    padding: 15px;
+    width:900px;
+}
+
+.navBar {
+    /* border: solid 2px pink; */
+    flex-flow: column wrap;
+    /* background-color: rgb(10, 80, 10);  */
+    background-color: black;
+    align-content: center;
+    padding: 15px;
+    height: auto;
+    width: 133px;
+}
+
+.navHome {
+    font-family: 'Source Sans Pro' sans-serif;
+    font-size: 18px;
+    color: rgba(226, 212, 212, 0.747);
+    /* background-color: rgb(10, 80, 10);  */
+    background-color: black;
+    align-content: center;
+    padding: 15px;
+    width: 133
+}
+
+.navAbout {
+    font-family: 'Source Sans Pro' sans-serif;
+    font-size: 18px;
+    color: rgba(226, 212, 212, 0.747);
+    /* background-color: rgb(10, 80, 10);  */
+    background-color: black;
+    align-content: center;
+    padding: 15px;
+    width: 133
+}
+
+.navPlayGame {
+    font-family: 'Source Sans Pro' sans-serif;
+    font-size: 18px;
+    color: rgba(226, 212, 212, 0.747);
+    /* background-color: rgb(10, 80, 10);  */
+    background-color: black;
+    align-content: center;
+    padding: 15px;
+    width: 133
+}
+
+.navCredits {
+    font-family: 'Source Sans Pro' sans-serif;
+    font-size: 18px;
+    color: rgba(226, 212, 212, 0.747);
+    /* background-color: rgb(10, 80, 10);  */
+    background-color: black;
+    padding: 15px;
+    align-content: center;
+    width: 133
+}
+
+.simonContainer {
+    display: grid;
+    grid-template-rows: repeat(3, 275px);
+    grid-template-columns: repeat(3, 275px);
+    grid-gap: 0px, 0px;
+    /* height: 100vh; */
+    background-color: black;
+    align-content: center;
+}
+
+.greenSegment { 
+    grid-column: 1;
+    grid-row: 1;
+} 
+
+.redSegment { 
+    grid-column: 2;
+    grid-row: 1;
+} 
+
+.yellowSegment { 
+    grid-column: 1;
+    grid-row: 2;
+} 
+
+.blueSegment { 
+    grid-column: 2;
+    grid-row: 2;
+} 
+
+.gameControls {
+    grid-column: 3;
+    grid-row: 3;
+}
